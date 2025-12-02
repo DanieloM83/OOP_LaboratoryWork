@@ -1,0 +1,45 @@
+name: Github Pages CI
+
+on:
+  push:
+    branches: [ "master" ]
+  workflow_dispatch:
+
+jobs:
+  deploy:
+    runs-on: ubuntu-latest
+
+    steps:
+      # 1. Checkout repo
+      - uses: actions/checkout@v4
+
+      # 2. Install dependencies
+      - name: Install Node.js
+        uses: actions/setup-node@v3
+        with:
+          node-version: "20"
+
+      - name: Install dependencies
+        run: npm install
+
+      # 3. Build project
+      - name: Build project
+        run: npm run build
+
+      # 4. Deploy to gh-pages (custom)
+      - name: Deploy to GitHub Pages
+        run: |
+          # Configure git user
+          git config --global user.name "github-actions[bot]"
+          git config --global user.email "github-actions[bot]@users.noreply.github.com"
+
+          # Move to build output folder
+          cd dist
+
+          # Initialize git in build folder
+          git init
+          git add .
+          git commit -m "Deploy to GitHub Pages"
+
+          # Force push to gh-pages branch
+          git push --force "https://${{ secrets.GITHUB_TOKEN }}@github.com/${{ github.repository }}.git" master:gh-pages
