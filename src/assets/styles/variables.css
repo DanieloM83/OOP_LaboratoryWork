@@ -1,0 +1,12 @@
+:root {
+  --color-backgroundMain: #101010;
+  --color-backgroundSecondary: #1a1a1a;
+  --color-backgroundTertiary: #282828;
+  --color-backgroundQuaternary: #b3b3b3;
+
+  --color-textPrimary: #fefefe;
+  --color-textSecondary: #b3b3b3;
+
+  --color-buttonPrimary: #580b57;
+  --color-buttonFocus: #800080;
+}

@@ -1,0 +1,279 @@
+<mxfile host="app.diagrams.net" agent="GitHubCopilot" version="28.2.9" pages="2">
+  <diagram id="class-before" name="1 - Class Diagram (Before DI Simplified)">
+    <mxGraphModel dx="1280" dy="720" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="0" fold="1" page="1" pageScale="1" pageWidth="1920" pageHeight="1080" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="c1" value="Entity Object" style="ellipse;strokeColor=#1a73e8;fillColor=#ffffff;" vertex="1" parent="1">
+          <mxGeometry x="120" y="80" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="c2" value="Entity Object" style="ellipse;strokeColor=#1a73e8;fillColor=#ffffff;" vertex="1" parent="1">
+          <mxGeometry x="240" y="80" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="c3" value="Entity Object" style="ellipse;strokeColor=#1a73e8;fillColor=#ffffff;" vertex="1" parent="1">
+          <mxGeometry x="360" y="80" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="c4" value="Entity Object" style="ellipse;strokeColor=#1a73e8;fillColor=#ffffff;" vertex="1" parent="1">
+          <mxGeometry x="480" y="80" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="c5" value="Entity Object" style="ellipse;strokeColor=#1a73e8;fillColor=#ffffff;" vertex="1" parent="1">
+          <mxGeometry x="600" y="80" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="c6" value="Entity Object" style="ellipse;strokeColor=#1a73e8;fillColor=#ffffff;" vertex="1" parent="1">
+          <mxGeometry x="120" y="220" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="c7" value="Entity Object" style="ellipse;strokeColor=#1a73e8;fillColor=#ffffff;" vertex="1" parent="1">
+          <mxGeometry x="240" y="220" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="c8" value="Entity Object" style="ellipse;strokeColor=#1a73e8;fillColor=#ffffff;" vertex="1" parent="1">
+          <mxGeometry x="360" y="220" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="Fn88GKz0rGprsBNc-HbS-16" value="+ label: string" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="Input">
+          <mxGeometry y="24" width="180" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="c9" value="Entity Object" style="ellipse;strokeColor=#1a73e8;fillColor=#ffffff;" vertex="1" parent="1">
+          <mxGeometry x="480" y="220" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="Fn88GKz0rGprsBNc-HbS-11" value="+ text: string" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="Button">
+          <mxGeometry y="20" width="180" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="Fn88GKz0rGprsBNc-HbS-12" value="+ onClick(): void" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="Button">
+          <mxGeometry y="47" width="180" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="Fn88GKz0rGprsBNc-HbS-13" value="+ size: string" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="Button">
+          <mxGeometry y="97" width="180" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="Fn88GKz0rGprsBNc-HbS-14" value="+ variant: string" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="Button">
+          <mxGeometry y="73" width="180" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="c10" value="Entity Object" style="ellipse;strokeColor=#1a73e8;fillColor=#ffffff;" vertex="1" parent="1">
+          <mxGeometry x="600" y="220" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="Fn88GKz0rGprsBNc-HbS-2" value="+&amp;nbsp;login(credentials): User" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="UserService">
+          <mxGeometry y="27" width="180" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="Fn88GKz0rGprsBNc-HbS-3" value="+&amp;nbsp;register(credentials): User" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="UserService">
+          <mxGeometry y="54" width="180" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="Fn88GKz0rGprsBNc-HbS-5" value="+ getCurrentUser(): User" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="UserService">
+          <mxGeometry y="104" width="180" height="26" as="geometry" />
+        </mxCell>
+        <!-- Lines replacing all previous relationship arrows -->
+        <mxCell id="l1" style="strokeWidth=2;" parent="1" source="c1" target="c6" edge="1"><mxGeometry relative="1" as="geometry" /></mxCell>
+        <mxCell id="l2" style="strokeWidth=2;" parent="1" source="c2" target="c7" edge="1"><mxGeometry relative="1" as="geometry" /></mxCell>
+        <mxCell id="l3" style="strokeWidth=2;" parent="1" source="c3" target="c8" edge="1"><mxGeometry relative="1" as="geometry" /></mxCell>
+        <mxCell id="l4" style="strokeWidth=2;" parent="1" source="c4" target="c9" edge="1"><mxGeometry relative="1" as="geometry" /></mxCell>
+        <mxCell id="l5" style="strokeWidth=2;" parent="1" source="c5" target="c10" edge="1"><mxGeometry relative="1" as="geometry" /></mxCell>
+        <mxCell id="Fn88GKz0rGprsBNc-HbS-6" value="+ list(): Problem[]" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="ProblemService">
+          <mxGeometry y="20" width="180" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="Fn88GKz0rGprsBNc-HbS-7" value="+&amp;nbsp;getById(id): Problem" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="ProblemService">
+          <mxGeometry y="47" width="180" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="Fn88GKz0rGprsBNc-HbS-8" value="+ update(id, changes): Problem" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="ProblemService">
+          <mxGeometry y="97" width="180" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="Fn88GKz0rGprsBNc-HbS-9" value="+ create(problem): Problem" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="ProblemService">
+          <mxGeometry y="73" width="180" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="Fn88GKz0rGprsBNc-HbS-10" value="+ remove(id): boolean" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="ProblemService">
+          <mxGeometry y="123" width="180" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="Store" value="Redux Store" style="swimlane;fontStyle=1;horizontal=1;rounded=0;strokeColor=#6a1b9a;fillColor=#f3e5f5;align=center;" parent="1" vertex="1">
+          <mxGeometry x="470" y="380" width="180" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="Fn88GKz0rGprsBNc-HbS-18" value="+ dispatch(): void" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="Store">
+          <mxGeometry y="24" width="180" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="UserSlice" value="userSlice" style="swimlane;fontStyle=1;horizontal=1;rounded=0;strokeColor=#8e24aa;fillColor=#f8bbd0;align=center;" parent="1" vertex="1">
+          <mxGeometry x="710" y="360" width="170" height="72" as="geometry" />
+        </mxCell>
+        <mxCell id="Fn88GKz0rGprsBNc-HbS-19" value="+ setUser()" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="UserSlice">
+          <mxGeometry y="20" width="180" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="Fn88GKz0rGprsBNc-HbS-20" value="+ updateUser()" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="UserSlice">
+          <mxGeometry y="46" width="180" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="Fn88GKz0rGprsBNc-HbS-21" value="+ login()" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="UserSlice">
+          <mxGeometry x="100" y="23" width="70" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="Fn88GKz0rGprsBNc-HbS-22" value="+ logout()" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="UserSlice">
+          <mxGeometry x="100" y="46" width="70" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="ProblemSlice" value="problemSlice" style="swimlane;fontStyle=1;horizontal=1;rounded=0;strokeColor=#8e24aa;fillColor=#f8bbd0;align=center;" parent="1" vertex="1">
+          <mxGeometry x="710" y="440" width="220" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="Fn88GKz0rGprsBNc-HbS-23" value="+&amp;nbsp;setProblems()" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="ProblemSlice">
+          <mxGeometry y="18" width="180" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="Fn88GKz0rGprsBNc-HbS-24" value="+&amp;nbsp;updateProblem()" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="ProblemSlice">
+          <mxGeometry y="44" width="180" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="Fn88GKz0rGprsBNc-HbS-25" value="+&amp;nbsp;addProblem()" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="ProblemSlice">
+          <mxGeometry x="110" y="22" width="100" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="Fn88GKz0rGprsBNc-HbS-26" value="+&amp;nbsp;toggleBookmark()" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="ProblemSlice">
+          <mxGeometry x="110" y="44" width="120" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="e1" style="startArrow=diamond;startFill=1;endArrow=none;strokeWidth=2;" parent="1" source="Login" target="Header" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="e2" style="startArrow=diamond;startFill=1;endArrow=none;strokeWidth=2;" parent="1" source="Registration" target="Header" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="e3" style="startArrow=diamond;startFill=1;endArrow=none;strokeWidth=2;" parent="1" source="Login" target="Input" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="e4" style="startArrow=diamond;startFill=1;endArrow=none;strokeWidth=2;" parent="1" source="Login" target="Button" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="e5" style="startArrow=diamond;startFill=1;endArrow=none;strokeWidth=2;" parent="1" source="Registration" target="Input" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="e6" style="startArrow=diamond;startFill=1;endArrow=none;strokeWidth=2;" parent="1" source="Registration" target="Button" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="e7" style="startArrow=diamond;startFill=1;endArrow=none;strokeWidth=2;" parent="1" source="Problemset" target="ProblemTable" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="e8" style="startArrow=diamond;startFill=1;endArrow=none;strokeWidth=2;" parent="1" source="Problemset" target="ProblemPagination" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="e9" style="startArrow=diamond;startFill=1;endArrow=none;strokeWidth=2;" parent="1" source="HomePage" target="Header" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="e10" style="startArrow=diamond;startFill=1;endArrow=none;strokeWidth=2;" parent="1" source="Store" target="UserSlice" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="e11" style="startArrow=diamond;startFill=1;endArrow=none;strokeWidth=2;" parent="1" source="Store" target="ProblemSlice" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="a1" style="startArrow=diamond;startFill=0;endArrow=none;strokeWidth=2;" parent="1" source="Login" target="UserService" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="a2" style="startArrow=diamond;startFill=0;endArrow=none;strokeWidth=2;" parent="1" source="Registration" target="UserService" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="a3" style="startArrow=diamond;startFill=0;endArrow=none;strokeWidth=2;" parent="1" source="ProblemTable" target="ProblemService" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="a4" style="startArrow=diamond;startFill=0;endArrow=none;strokeWidth=2;" parent="1" source="Login" target="Store" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="a5" style="startArrow=diamond;startFill=0;endArrow=none;strokeWidth=2;" parent="1" source="Registration" target="Store" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="a6" style="startArrow=diamond;startFill=0;endArrow=none;strokeWidth=2;" parent="1" source="ProblemTable" target="Store" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Fn88GKz0rGprsBNc-HbS-4" value="+&amp;nbsp;logout(): boolean" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="900" y="140" width="180" height="26" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram id="deps-before" name="2 - Dependency Graph (Before DI Simplified)">
+    <mxGraphModel dx="1280" dy="720" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="0" fold="1" page="1" pageScale="1" pageWidth="1920" pageHeight="1080" math="0" shadow="0">
+      <root>
+        <mxCell id="0"/>
+        <mxCell id="1" parent="0"/>
+        <!-- Modules -->
+        <mxCell id="d1" value="Entity Object" style="ellipse;strokeColor=#1a73e8;fillColor=#ffffff;" vertex="1" parent="1">
+          <mxGeometry x="120" y="120" width="80" height="80" as="geometry"/>
+        </mxCell>
+        <mxCell id="d2" value="Entity Object" style="ellipse;strokeColor=#1a73e8;fillColor=#ffffff;" vertex="1" parent="1">
+          <mxGeometry x="240" y="120" width="80" height="80" as="geometry"/>
+        </mxCell>
+        <mxCell id="d3" value="Entity Object" style="ellipse;strokeColor=#1a73e8;fillColor=#ffffff;" vertex="1" parent="1">
+          <mxGeometry x="360" y="120" width="80" height="80" as="geometry"/>
+        </mxCell>
+        <mxCell id="d4" value="Entity Object" style="ellipse;strokeColor=#1a73e8;fillColor=#ffffff;" vertex="1" parent="1">
+          <mxGeometry x="480" y="120" width="80" height="80" as="geometry"/>
+        </mxCell>
+        <mxCell id="d5" value="Entity Object" style="ellipse;strokeColor=#1a73e8;fillColor=#ffffff;" vertex="1" parent="1">
+          <mxGeometry x="600" y="120" width="80" height="80" as="geometry"/>
+        </mxCell>
+        <mxCell id="d6" value="Entity Object" style="ellipse;strokeColor=#1a73e8;fillColor=#ffffff;" vertex="1" parent="1">
+          <mxGeometry x="120" y="260" width="80" height="80" as="geometry"/>
+        </mxCell>
+        <mxCell id="d7" value="Entity Object" style="ellipse;strokeColor=#1a73e8;fillColor=#ffffff;" vertex="1" parent="1">
+          <mxGeometry x="240" y="260" width="80" height="80" as="geometry"/>
+        </mxCell>
+        <mxCell id="d8" value="Entity Object" style="ellipse;strokeColor=#1a73e8;fillColor=#ffffff;" vertex="1" parent="1">
+          <mxGeometry x="360" y="260" width="80" height="80" as="geometry"/>
+        </mxCell>
+        <mxCell id="d9" value="Entity Object" style="ellipse;strokeColor=#1a73e8;fillColor=#ffffff;" vertex="1" parent="1">
+          <mxGeometry x="480" y="260" width="80" height="80" as="geometry"/>
+        </mxCell>
+        <mxCell id="d10" value="Entity Object" style="ellipse;strokeColor=#1a73e8;fillColor=#ffffff;" vertex="1" parent="1">
+          <mxGeometry x="600" y="260" width="80" height="80" as="geometry"/>
+        </mxCell>
+        <mxCell id="mConstants" value="constants" style="rounded=0;strokeColor=#558b2f;fillColor=#f1f8e9;" vertex="1" parent="1">
+          <mxGeometry x="1000" y="330" width="160" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="mTypesUser" value="types/user" style="rounded=0;strokeColor=#757575;fillColor=#eeeeee;" vertex="1" parent="1">
+          <mxGeometry x="1000" y="120" width="160" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="mTypesProblem" value="types/problem" style="rounded=0;strokeColor=#757575;fillColor=#eeeeee;" vertex="1" parent="1">
+          <mxGeometry x="1000" y="260" width="160" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="mStore" value="store/index (Provider)" style="rounded=0;strokeColor=#6a1b9a;fillColor=#f3e5f5;" vertex="1" parent="1">
+          <mxGeometry x="680" y="220" width="220" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="mUserSlice" value="store/user/slice" style="rounded=0;strokeColor=#8e24aa;fillColor=#f8bbd0;" vertex="1" parent="1">
+          <mxGeometry x="940" y="200" width="180" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="mProblemSlice" value="store/problem/slice" style="rounded=0;strokeColor=#8e24aa;fillColor=#f8bbd0;" vertex="1" parent="1">
+          <mxGeometry x="940" y="260" width="200" height="50" as="geometry" />
+        </mxCell>
+        <!-- Edges: component -> service/store/common -->
+        <mxCell id="dl1" style="strokeWidth=2;" edge="1" parent="1" source="d1" target="d6"><mxGeometry relative="1" as="geometry"/></mxCell>
+        <mxCell id="dl2" style="strokeWidth=2;" edge="1" parent="1" source="d2" target="d7"><mxGeometry relative="1" as="geometry"/></mxCell>
+        <mxCell id="dl3" style="strokeWidth=2;" edge="1" parent="1" source="d3" target="d8"><mxGeometry relative="1" as="geometry"/></mxCell>
+        <mxCell id="dl4" style="strokeWidth=2;" edge="1" parent="1" source="d4" target="d9"><mxGeometry relative="1" as="geometry"/></mxCell>
+        <mxCell id="dl5" style="strokeWidth=2;" edge="1" parent="1" source="d5" target="d10"><mxGeometry relative="1" as="geometry"/></mxCell>
+        <mxCell id="d6" style="endArrow=classic;strokeWidth=2;" edge="1" parent="1" source="mLogin" target="mStore">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="d7" style="endArrow=classic;strokeWidth=2;" edge="1" parent="1" source="mRegistration" target="mStore">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="d8" style="endArrow=classic;strokeWidth=2;" edge="1" parent="1" source="mProblemTable" target="mProblemSlice">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="d9" style="endArrow=classic;strokeWidth=2;" edge="1" parent="1" source="mLogin" target="mUserSlice">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <!-- Edges: services -> constants/types -->
+        <mxCell id="d10" style="endArrow=classic;strokeWidth=2;dashed=1;" edge="1" parent="1" source="mProblemService" target="mConstants">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="d11" style="endArrow=classic;strokeWidth=2;dashed=1;" edge="1" parent="1" source="mProblemService" target="mTypesProblem">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="d12" style="endArrow=classic;strokeWidth=2;dashed=1;" edge="1" parent="1" source="mUserService" target="mTypesUser">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="d13" style="endArrow=classic;strokeWidth=2;dashed=1;" edge="1" parent="1" source="mUserSlice" target="mTypesUser">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="d14" style="endArrow=classic;strokeWidth=2;dashed=1;" edge="1" parent="1" source="mProblemSlice" target="mTypesProblem">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <!-- Edges: components -> common -->
+        <mxCell id="d15" style="endArrow=classic;strokeWidth=2;dashed=1;" edge="1" parent="1" source="mLogin" target="mInput">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="d16" style="endArrow=classic;strokeWidth=2;dashed=1;" edge="1" parent="1" source="mLogin" target="mButton">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="d17" style="endArrow=classic;strokeWidth=2;dashed=1;" edge="1" parent="1" source="mRegistration" target="mInput">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="d18" style="endArrow=classic;strokeWidth=2;dashed=1;" edge="1" parent="1" source="mRegistration" target="mButton">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>

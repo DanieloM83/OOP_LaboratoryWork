@@ -1,0 +1,13 @@
+.pagination {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+  padding: 12px 0;
+}
+
+.ellipsis {
+  color: var(--color-textSecondary);
+  padding: 0 6px;
+  user-select: none;
+}

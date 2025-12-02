@@ -1,0 +1,192 @@
+.card {
+  max-width: 90vw;
+  width: 900px;
+  margin-inline: auto;
+  margin-top: 96px;
+  padding: 22px 22px 10px;
+  background: color-mix(in oklab, var(--color-backgroundSecondary) 92%, transparent);
+  border-radius: 26px;
+  box-shadow: 0 12px 40px rgba(0, 0, 0, 0.35);
+}
+
+.scrollWrap {
+  overflow-x: auto;
+}
+
+/* Table with spaced rows like the screenshot */
+.table {
+  width: 100%;
+  border-collapse: separate;
+  border-spacing: 0 10px; /* vertical gaps between rows */
+  min-width: 760px;
+}
+
+.thead tr th {
+  border-bottom: 1px solid rgba(255, 255, 255, 0.08);
+}
+
+.th {
+  text-align: left;
+  color: var(--color-textSecondary);
+  font-weight: 600;
+  letter-spacing: 0.2px;
+  padding: 0 14px 10px;
+  font-size: 14px;
+}
+
+.tbody .row > .td {
+  background: var(--color-backgroundTertiary);
+  padding: 12px 14px;
+  border-top: 1px solid rgba(255, 255, 255, 0.04);
+  border-bottom: 1px solid rgba(0, 0, 0, 0.25);
+}
+
+.tbody .row:hover > .td {
+  background: color-mix(in oklab, var(--color-backgroundTertiary) 85%, #000 15%);
+}
+
+/* rounded row edges using first/last cells */
+.tbody .row > .td:first-child {
+  border-top-left-radius: 8px;
+  border-bottom-left-radius: 8px;
+}
+.tbody .row > .td:last-child {
+  border-top-right-radius: 8px;
+  border-bottom-right-radius: 8px;
+}
+
+.colStatus {
+  width: 72px;
+  text-align: center;
+}
+.colTitle {
+  width: auto;
+}
+.colDiff {
+  width: 220px;
+}
+.colSubs {
+  width: 160px;
+  text-align: right;
+}
+.colBm {
+  width: 64px;
+  text-align: center;
+}
+
+.td {
+  vertical-align: middle;
+}
+
+/* status bubble styles to match picture */
+.statusBubble {
+  width: 26px;
+  height: 26px;
+  display: inline-grid;
+  place-items: center;
+  border-radius: 999px;
+  background: rgba(255, 255, 255, 0.06);
+  border: 1px solid rgba(255, 255, 255, 0.08);
+}
+.statusBubble img {
+  width: 16px;
+  height: 16px;
+}
+.solved {
+  background: rgba(0, 128, 0, 0.15);
+  border-color: rgba(0, 255, 0, 0.25);
+}
+.attempted {
+  background: rgba(255, 165, 0, 0.12);
+  border-color: rgba(255, 165, 0, 0.25);
+}
+.none {
+  background: rgba(255, 255, 255, 0.06);
+  border-color: rgba(255, 255, 255, 0.08);
+}
+
+/* title with leading index and ellipsis */
+.titleLink {
+  display: inline-flex;
+  gap: 10px;
+  align-items: center;
+  max-width: 100%;
+  color: var(--color-textPrimary);
+  text-decoration: none;
+}
+.titleLink:hover {
+  text-decoration: underline;
+}
+.index {
+  color: var(--color-textSecondary);
+  min-width: 24px;
+}
+.titleText {
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+
+/* difficulty "capy" icons */
+.difficulty {
+  display: inline-flex;
+  gap: 6px;
+}
+.capy {
+  width: 18px;
+  height: 18px;
+  object-fit: contain;
+}
+.capyOn {
+  opacity: 1;
+}
+.capyOff {
+  opacity: 0.25;
+  filter: grayscale(100%);
+}
+
+/* submissions */
+.colSubs {
+  color: var(--color-textSecondary);
+  font-weight: 700;
+}
+
+/* bookmark button like screenshot */
+.bookmarkBtn {
+  width: 30px;
+  height: 30px;
+  display: inline-grid;
+  place-items: center;
+  border-radius: 6px;
+  background: rgba(255, 255, 255, 0.1);
+  border: 0;
+  cursor: pointer;
+  transition:
+    background 0.2s ease,
+    transform 0.05s ease,
+    opacity 0.2s ease;
+}
+.bookmarkBtn:hover {
+  background: rgba(255, 255, 255, 0.16);
+}
+.bookmarkBtn:active {
+  transform: translateY(1px);
+}
+.bookmarkIcon {
+  width: 16px;
+  height: 16px;
+  filter: grayscale(1) brightness(0.9); /* gray look for inactive */
+  opacity: 0.85;
+}
+.active .bookmarkIcon {
+  filter: none; /* keep yellow */
+  opacity: 1;
+}
+
+/* narrow screens: hide submissions column */
+@media (max-width: 680px) {
+  .colSubs,
+  .th.colSubs {
+    display: none;
+  }
+}

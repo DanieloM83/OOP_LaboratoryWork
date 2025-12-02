@@ -1,0 +1,83 @@
+.page {
+  min-height: 100svh;
+  background-image: url("@/assets/images/background.svg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: right center;
+  display: grid;
+  align-items: start;
+  padding-block: clamp(32px, 8vh, 80px);
+}
+
+.card {
+  width: min(920px, 92vw);
+  margin: 50px auto;
+  background-color: var(--color-backgroundSecondary);
+  border-radius: 24px;
+  padding: clamp(16px, 3vw, 32px);
+}
+
+.headerRow {
+    display: flex;
+    gap: 16px;
+}
+
+.avatar {
+  width: clamp(96px, 14vw, 160px);
+  height: clamp(96px, 14vw, 160px);
+  border-radius: 16px;
+  object-fit: cover;
+}
+
+.headerContent {}
+
+.title {
+  font-size: clamp(28px, 4vw, 40px);
+  font-weight: 700;
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  margin:0;
+}
+
+.flag { font-size: 1em; }
+
+.handle {
+  color: var(--color-textSecondary);
+  margin-top: 4px;
+}
+
+.stat { margin-top: 8px; }
+
+.meta {
+  display: flex;
+  gap: 24px;
+  color: var(--color-textSecondary);
+  margin-top: 8px;
+}
+
+.separator {
+  border: none;
+  border-top: 3px solid var(--color-backgroundTertiary);
+  margin: 16px 0;
+}
+
+.section {}
+
+.sectionTitle {
+  font-weight: 600;
+  margin-bottom: 12px;
+}
+
+.list {
+  display: grid;
+  gap: 4px;
+}
+
+.listItem {
+  background: var(--color-bgTertiary);
+  padding: 10px 12px;
+  border-radius: 8px;
+}
+
+.index { color: var(--color-textSecondary); margin-right: 8px; }

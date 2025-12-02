@@ -1,0 +1,83 @@
+.button {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  gap: 8px;
+  font-weight: 700;
+  line-height: 1;
+  border: 0;
+  outline: none;
+  cursor: pointer;
+  user-select: none;
+  transition:
+    background-color 0.2s ease,
+    color 0.2s ease,
+    box-shadow 0.2s ease,
+    border-color 0.2s ease;
+  -webkit-tap-highlight-color: transparent;
+}
+
+/* sizes */
+.lg {
+  height: 56px;
+  padding: 0 24px;
+  font-size: 20px;
+  border-radius: 16px;
+}
+
+.sm {
+  height: 36px;
+  min-width: 36px;
+  padding: 0 12px;
+  font-size: 14px;
+  border-radius: 999px; /* bubbles for pagination */
+}
+
+/* variants */
+.primary {
+  background-color: var(--color-buttonPrimary);
+  color: #fff;
+}
+
+.primary:hover {
+  background-color: var(--color-buttonFocus);
+}
+
+.primary:active {
+  background-color: var(--color-buttonPrimary);
+}
+
+.primary:focus-visible {
+  box-shadow: 0 0 0 3px color-mix(in oklab, var(--color-buttonFocus) 40%, transparent);
+}
+
+/* Ghost bubble (pagination) */
+.ghost {
+  background-color: rgba(255, 255, 255, 0.06);
+  color: var(--color-textPrimary);
+  border: 1px solid rgba(255, 255, 255, 0.08);
+}
+
+.ghost:hover {
+  background-color: rgba(255, 255, 255, 0.12);
+}
+
+.ghost:focus-visible {
+  box-shadow: 0 0 0 3px rgba(255, 255, 255, 0.12);
+}
+
+.active {
+  background-color: rgba(255, 255, 255, 0.18);
+  color: var(--color-textPrimary);
+}
+
+/* utilities */
+.fullWidth {
+  width: 100%;
+}
+
+.button:disabled {
+  opacity: 0.6;
+  cursor: not-allowed;
+  box-shadow: none;
+}

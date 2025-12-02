@@ -1,0 +1,26 @@
+{
+  "name": "@danielom83/common-ui",
+  "version": "1.0.0",
+  "description": "Reusable React UI components by Danielo (I was forced to.)",
+  "license": "MIT",
+  "author": "DanieloM83",
+  "type": "commonjs",
+  "main": "index.js",
+  "keywords": [
+    "react",
+    "ui",
+    "components",
+    "typescript"
+  ],
+  "scripts": {
+    "test": "echo \"Hello world!\"",
+    "build": "tsc"
+  },
+  "peerDependencies": {
+    "react": "^18.0.0",
+    "react-dom": "^18.0.0"
+  },
+  "devDependencies": {
+    "typescript": "^5.9.3"
+  }
+}
